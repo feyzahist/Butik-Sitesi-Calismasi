@@ -1,0 +1,267 @@
+<html>
+<head>
+    <title>Kredi Kartı Seçimi</title>
+</head>
+<link rel="stylesheet"type="text/css" href="style.css" />
+    <style>
+        #menuDiv {
+        width:100%;
+        height:60px;
+        text-align:center;
+        line-height:60px;
+        background-color:black;  
+        }
+        .menuYazi {
+        margin-left:30px;
+        text-decoration:none;
+        color:white;
+        font-family:Arial;
+        }
+        .menuYazi:hover {
+        color:#517373;
+        text-decoration:underline;
+        transition:0.5s all;
+        }
+	.altlink{
+        text-decoration:none;
+        color:white;
+        margin-right:30px;
+        float:right;
+	font-family:Garamond;
+        }
+        #altdiv{
+        background-color:black;
+        height:30px;
+        line-height:30px;
+        width:100%;
+        bottom:0px;
+        left:0px;
+        position:absolute;
+        }
+	.ortakDiv{
+    	margin:0 auto;
+    	width:1115px;
+	height: 500px;
+	}
+	.baslik{
+    	margin-left: 20px;
+    	margin-bottom: 24px;
+    	font-size:24px;
+    	font-weight: 500;
+	}
+	.icerikDiv{
+    	display: flex;
+	}
+	.saranDiv{
+    	width:22%;
+    	height: 350px;
+	padding-top:20px;
+    	margin-left: 20px;
+    	background-color: rgba(229, 243, 255, 0.4);
+    	border-radius: 12px;
+    	border: solid 2px #fff;
+    	border-color: #0087FF;   
+	}
+	.ortakSponsor{
+    	color: rgb(0, 135, 255);
+    	font-size: 11px;
+    	line-height: 12px;
+    	margin-left: 18px;
+    	margin-top: 10px;
+    	font-weight: 600;
+	}	
+	.logoSaran{
+	margin:0 auto;
+	width:100px;	
+	height:50px;
+    	display: flex;
+   	justify-content: center;
+	}
+	.kartYazi{
+    	text-align: center;
+    	color: rgb(19, 23, 23);
+    	font-size: 16px;
+    	line-height: 23px;
+    	margin-bottom: 24px;
+    	font-weight: 500;
+	}
+	.ortakTaksit{
+    	display: flex;
+    	flex-direction: column;
+    	width: 100%;
+	}
+	.ortakTaksitİcerik{
+    	margin-left: 10px;
+    	margin-right:10px;
+	display: flex;
+	justify-content: space-between;
+	}
+	.ortakTaksitYazi{
+    	padding: 10px;
+	}
+	.buttonSaran{
+	transition:0.5s all;
+    	display: flex;
+    	justify-content: center;
+    	margin-left: 10px;
+    	margin-top:16px;
+    	border: none;
+    	cursor: pointer;
+    	font-size: 16px;
+    	font-weight: 700;
+    	display: flex;
+    	align-items: center;
+    	padding: 10px 16px 10px 24px;
+    	height: 50px;
+    	line-height: 22px;
+    	border-radius: 4px;
+    	width: 220px;
+    	background-color: rgb(0, 135, 255);
+	}
+	.buttonSaran:hover{
+    	background-color: rgb(0, 112, 211);
+	}
+	.buttonYazi{
+    	color: white;
+	}
+
+</style>
+<body style="margin:0; padding:0;">
+	
+            <div id="menuDiv">
+            	<a href="anasayfa.html"><div id="logoDiv"><img src="Logolar/logo.png" style=" height:60px; margin-left:50px;"/></div></a>
+            	<a class="menuYazi" href="anasayfa.html">Anasayfa</a>
+            	<a class="menuYazi" href="kiyafet.html">Sweatshirt</a>
+            	<a class="menuYazi" href="kiyafet2.html">Pantolon</a>
+           	<a class="menuYazi" href="kredikarti.html">Kredi Kartı Seçimi</a>
+            	<a class="menuYazi" href="odeme.html">Ödeme</a>
+            	<a class="menuYazi" href="sitemap.html">Sitemap</a>            
+            </div>
+
+
+<div class="ortakDiv">
+        <div>
+            <h2 class="baslik">Kredi/Banka Kartı Seçiniz</h2>
+        </div>
+        <div class="icerikDiv">
+            <div class="saranDiv">
+                <span class="ortakSponsor">Sponsor Banka</span>
+                <div class="logoSaran">
+                    <img class="bankalogo" src="Logolar/garanti.png" /style="width:150px; height:40px; margin-top:15px;">
+                </div>
+                <div class="kartYazi"><p>İndirimli Kart</div> 
+                <div class="ortakTaksit">
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">Taksit Sayısı</div>
+                        <div class="ortakTaksitYazi">4</div>
+                    </div>
+                    <div class="ortakTaksitİcerik">
+                        <div class="ortakTaksitYazi">Ücretli İade</div>
+                        <div class="ortakTaksitYazi">1 Ay</div>
+                    </div>
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">İndirim</div>
+                        <div class="ortakTaksitYazi">%35</div>
+                    </div>
+                </div>
+                <div>
+                    <button class="buttonSaran">
+                        <a href="odeme.html" target="_blank" style="text-decoration:none;"><div class="buttonYazi">Ödemeye Geç</div></a>
+                        <div style="fill:white;"><svg style="display:flex; justify-content:flex-end; margin-left:10px;" viewBox="0 0 24 24"  width="20px" height="20px" data-testid="landingHighlightedLoans__credit-info-box-0-button-icon"><path d="M0 0h24v24H0z" fill="none"></path><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+                    </button>
+                </div>
+            </div>
+            <div class="saranDiv">
+                <span class="ortakSponsor">Sponsor Banka</span>
+                <div class="logoSaran">
+                    <img class="bankalogo" src="Logolar/enpara.png" / style="width:150px; height:30px; margin-top:15px;">
+                </div>
+                <div class="kartYazi"><p>İndirimli Kart</p></div>
+                <div class="ortakTaksit">
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">Taksit Sayısı</div>
+                        <div class="ortakTaksitYazi">3</div>
+                    </div>
+                    <div class="ortakTaksitİcerik">
+                        <div class="ortakTaksitYazi">Ücretli İade</div>
+                        <div class="ortakTaksitYazi">1 Ay</div>
+                    </div>
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">İndirim</div>
+                        <div class="ortakTaksitYazi">%20</div>
+                    </div>
+                </div>
+                <div>
+                    <button class="buttonSaran">
+                        <a href="odeme.html"  target="_blank" style="text-decoration:none;"><div class="buttonYazi">Ödemeye Geç</div></a>
+                        <div style="fill:white;"><svg style="display:flex; justify-content:flex-end; margin-left:10px;" viewBox="0 0 24 24"  width="20px" height="20px" data-testid="landingHighlightedLoans__credit-info-box-0-button-icon"><path d="M0 0h24v24H0z" fill="none"></path><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+                    </button>
+                </div>
+            </div>
+            <div class="saranDiv">
+                <span class="ortakSponsor">Sponsor Banka</span>
+                <div class="logoSaran">
+                    <img class="bankalogo" src="Logolar/halkbank.png" / style="width:150px; height:20px; margin-top:15px;">
+                </div>
+                <div class="kartYazi"><p>İndirimli Kart</p></div>
+                <div class="ortakTaksit">
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">Taksit Sayısı</div>
+                        <div class="ortakTaksitYazi">5</div>
+                    </div>
+                    <div class="ortakTaksitİcerik">
+                        <div class="ortakTaksitYazi">Ücretli İade</div>
+                        <div class="ortakTaksitYazi">2 Ay</div>
+                    </div>
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">İndirim</div>
+                        <div class="ortakTaksitYazi">%50</div>
+                    </div>
+                </div>
+                <div>
+                    <button class="buttonSaran">
+                        <a href="odeme.html"  target="_blank" style="text-decoration:none;"><div class="buttonYazi">Ödemeye Geç</div></a>
+                        <div style="fill:white;"><svg style="display:flex; justify-content:flex-end; margin-left:10px;" viewBox="0 0 24 24"  width="20px" height="20px" data-testid="landingHighlightedLoans__credit-info-box-0-button-icon"><path d="M0 0h24v24H0z" fill="none"></path><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+                    </button>
+                </div>
+            </div>
+            <div class="saranDiv">
+                <span class="ortakSponsor">Sponsor Banka</span>
+                <div class="logoSaran">
+                    <img class="bankalogo" src="Logolar/ziraatbank.png" / style="width:150px; height:20px; margin-top:15px;">
+                </div>
+                <div class="kartYazi"><p>İndirimli Kart</p></div>
+
+                <div class="ortakTaksit">
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">Taksit Sayısı</div>
+                        <div class="ortakTaksitYazi">2</div>
+                    </div>
+                    <div class="ortakTaksitİcerik">
+                        <div class="ortakTaksitYazi">Ücretli İade</div>
+                        <div class="ortakTaksitYazi">15 Gün</div>
+                    </div>
+                    <div class="ortakTaksitİcerik" style="background-color:rgb(255, 255, 255);">
+                        <div class="ortakTaksitYazi">İndirim</div>
+                        <div class="ortakTaksitYazi">%10</div>
+                    </div>
+                </div>
+                <div>
+                    <button class="buttonSaran">
+                        <a href="odeme.html" target="_blank" style="text-decoration:none;"><div class="buttonYazi">Ödemeye Geç</div></a>
+                        <div style="fill:white;"><svg style="display:flex; justify-content:flex-end; margin-left:10px;" viewBox="0 0 24 24"  width="20px" height="20px" data-testid="landingHighlightedLoans__credit-info-box-0-button-icon"><path d="M0 0h24v24H0z" fill="none"></path><path d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+                    </button>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+	<div id="altdiv">
+            <a class="altlink" href="#">Telefon Numarası: 0212 530 88 90</a>
+            <a class="altlink" href="#">E-mail: kiyafetim@gmail.com</a>
+            <a class="altlink" href="#">Hazırlayan: Mahmut</a>
+        </div>
+	
+	
+</body>
+</html>
